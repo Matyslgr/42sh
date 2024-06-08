@@ -1,0 +1,2 @@
+# Classic inhibitors
+touch hello\ world\nls\nrm 'hello world'

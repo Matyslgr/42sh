@@ -1,0 +1,2 @@
+# Setenv PATH
+setenv PATH\nls -a

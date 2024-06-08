@@ -1,0 +1,18 @@
+# Erreur de commande inconnue :
+unknown_command
+
+# Erreur de redirection de sortie vers un fichier sans permission :
+echo "Error test" > /root/error_file.txt
+
+Erreur de syntaxe dans une commande avec pipeline 
+ls -l | | grep "file"
+
+# Erreur de fichier inexistant dans une commande avec redirection d'entrée :
+cat < non_existent_file.txt
+
+# Erreur de syntaxe dans une commande avec here document :
+cat << EOF
+Ceci est un exemple de texte
+avec plusieurs lignes
+EOF
+extra_argument

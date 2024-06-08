@@ -1,0 +1,20 @@
+# Commandes avec redirection :
+echo "This is a test" > test_file.txt\ncat test_file.txt
+
+# Commandes avec pipelines :
+echo "Hello, world!" | grep "world"
+ls -l | grep "file"
+
+# Commandes avec redirection d'entrée :
+cat < test_file.txt
+
+# Commandes avec redirection de sortie (append) :
+echo "Appended text" >> test_file.txt
+cat test_file.txt
+
+# Commande avec redirection de l'entrée (here document) :
+cat << EOF
+Ceci est un exemple de texte
+avec plusieurs lignes
+utilisant la syntaxe << EOF
+EOF

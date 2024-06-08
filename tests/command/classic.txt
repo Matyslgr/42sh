@@ -1,0 +1,11 @@
+# Commandes de base :
+echo Hello, world!
+ls
+ls -a
+pwd
+
+# Navigation dans le système de fichiers :
+cd /tmp
+ls
+cd /
+pwd

@@ -1,0 +1,14 @@
+# Test tr
+echo "Hello, World!" | tr -d 'o' | sed "s/rld/orld/g"
+echo "HeLLo WoRLd" | tr '[:lower:][:upper:]' '[:upper:][:lower:]'
+
+# Long command line with multiple redirect and pipe
+# cat grep tr sed
+
+ls -la | grep "split" > split.txt; cat split.txt | sed "s/words/arguements/g" | tr "[:lower:]" "[:upper:]" > output ; cat output ; rm output split.txt
+
+ls -a | cat -e | cat -e | cat -e
+
+man gcc | cat -e > /tmp/file
+
+echo "Hello" > file ; grep "Hello" < file | cat -e > file2 ; cat file2\nrm file file2
